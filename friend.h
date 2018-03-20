@@ -9,7 +9,7 @@
 using namespace std;
 
 /*
-The class from which Friend is created (getters and setters).
+The class based on which Friend is created (getters and setters).
 */
 
 class Friend

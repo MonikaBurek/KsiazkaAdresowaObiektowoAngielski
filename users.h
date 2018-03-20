@@ -8,7 +8,7 @@
 using namespace std;
 
 /*
-The class is responsible for logging in, registering, changing the password, logging out
+The class responsible for logging in, registering, changing the password, logging out
 */
 
 class Users

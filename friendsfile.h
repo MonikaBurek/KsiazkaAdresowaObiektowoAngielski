@@ -9,7 +9,7 @@
 using namespace std;
 
 /*
-The class is responsible for operations on the file, AddressBook.txt
+The class responsible for operations on the file AddressBook.txt
 */
 
 class FriendsFile :public File

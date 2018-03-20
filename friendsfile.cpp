@@ -238,7 +238,7 @@ void FriendsFile::removeLinesFromFile (int loggedUserId)
 
     newFile.close();
     file.close();
-    remove("AddressBook.txt"); // remove - removes the file to delete the file it must be closed it applies to all functions that are used
+    remove("AddressBook.txt"); // remove - to remove the file it must be closed it applies to all functions that are used
     rename("fileWithoutALine.txt","AddressBook.txt");
 }
 
