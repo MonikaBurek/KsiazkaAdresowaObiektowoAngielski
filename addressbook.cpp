@@ -51,7 +51,7 @@ void AddressBook::saveNewFriend()
     bool isFileEmpty;
     isFileEmpty = userFriendsFile.isFileEmpty("AddressBook.txt");
 
-    if (isFileEmpty == 1) //"Plik zawiera dane." << endl;
+    if (isFileEmpty == 1) //The file contains data.
         userFriendsFile.loadFriendsFromFile(friends, loggedUserId);
 
     Friend newFriend = giveNewFriendData();
@@ -87,7 +87,7 @@ void AddressBook::searchName()
         }
     }
 
-    if(!foundFriend)   //jesli zmienna Znaleziony_znajomy==0
+    if(!foundFriend)   //if variable foundFriend == 0
     {
         cout << endl << "Nie znaleziono osoby o tym imieniu." << endl << endl;
     }
@@ -118,7 +118,7 @@ void AddressBook::searchSurname()
         }
     }
 
-    if(!foundFriend)   //jesli zmienna Znaleziony_znajomy==0
+    if(!foundFriend)
     {
         cout << endl << "Nie znaleziono osoby o tym imieniu." << endl << endl;
     }
@@ -229,7 +229,7 @@ void AddressBook::editContact()
         foundPersonPosition++;
     }
 
-    if(!foundFriend)   //jesli zmienna Znaleziony_znajomy==0
+    if(!foundFriend)
     {
         cout << endl << "Nie znaleziono osoby o podanym: imieniu i nazwisku." << endl << endl;
         system("pause");

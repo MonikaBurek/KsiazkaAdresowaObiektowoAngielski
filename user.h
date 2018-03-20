@@ -6,7 +6,7 @@
 using namespace std;
 
 /*
-Klasa na podstawie ktorej jest tworzony Uzytkownik(gettery i settery).
+The class based on which the User is created (getters and setters)
 */
 
 class User

@@ -17,7 +17,7 @@ void UsersFile::loadUsersFromFile( vector <User> &users)
     User user;
 
     users.clear();
-    file.open("Users.txt",ios::in); // aby otworzyc plik do odczytu
+    file.open("Users.txt",ios::in);
     if (file.good() == true)
     {
         while (getline(file,line))

@@ -7,7 +7,7 @@
 using namespace std;
 
 /*
-Klasa  zawiera funkcje czy plik jest pusty.
+The class contains functions if the file is empty.
 */
 
 class File

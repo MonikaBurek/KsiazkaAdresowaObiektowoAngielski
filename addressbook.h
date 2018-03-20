@@ -7,7 +7,7 @@
 using namespace std;
 
 /*
-Klasa odpowiedzialna m.in. za dodawanie nowego znajomego, edycje usuwanie, wyszukiwanie.
+The class responsible for adding a new friend, editing, deleting, searching for a friend.
 */
 
 class AddressBook

@@ -38,13 +38,13 @@ User Users::giveNewUserData()
     cout << "Podaj haslo: ";
     cin >> userPassword;
 
-    if (users.empty() == true)  // je¿eli ksiazka adresowa jest pusta
+    if (users.empty() == true)  // if the address book is empty
     {
-        userID = 1;           // to nowy adresat ma id=1
+        userID = 1;           // then the new friend has id = 1
     }
     else
     {
-        userID = users.back().getUserID() + 1; // w przeciwnym przypadku pobierz id ostatniej osoby z ksiazki adresowej i zwiêksz wartoœæ o jeden.
+        userID = users.back().getUserID() + 1; // otherwise, get the last person's id from the address book and increase the value by one.
     }
 
 
@@ -111,7 +111,7 @@ int Users::logInUser()
         }
     }
 
-    if(!foundUser)   //jesli zmienna Znaleziony_znajomy==0
+    if(!foundUser)
     {
         cout << "Nie ma uzytkownika z takim loginem." << endl;
     }

@@ -8,7 +8,7 @@
 using namespace std;
 
 /*
-Klasa odpowiedzialna m.in. za logowanie, rejestracjê, zmianê has³a, wylogowanie.
+The class is responsible for logging in, registering, changing the password, logging out
 */
 
 class Users

@@ -143,7 +143,7 @@ void FriendsFile::loadFriendsFromFile(vector <Friend> &friends, int loggedUserId
     fstream file;
 
     friends.clear();
-    file.open("AddressBook.txt",ios::in); // aby otworzyc plik do odczytu
+    file.open("AddressBook.txt",ios::in);
     if (file.good() == true)
     {
         while (getline(file,line))
@@ -189,7 +189,7 @@ void FriendsFile::removeLinesFromFile (int loggedUserId)
     ofstream newFile;
 
     linesToRemove.clear();
-    file.open("AddressBook.txt", ios::in); // aby otworzyc plik do odczytu
+    file.open("AddressBook.txt", ios::in);
     if (file.good() == true)
     {
         while (getline(file,line))
@@ -238,7 +238,7 @@ void FriendsFile::removeLinesFromFile (int loggedUserId)
 
     newFile.close();
     file.close();
-    remove("AddressBook.txt"); // remove usuwa plik, aby usunac plik musi byc on zamkniety dotyczy to wszystkich funkcji ktorych sie uzywa
+    remove("AddressBook.txt"); // remove - removes the file to delete the file it must be closed it applies to all functions that are used
     rename("fileWithoutALine.txt","AddressBook.txt");
 }
 

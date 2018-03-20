@@ -9,7 +9,7 @@
 using namespace std;
 
 /*
-Klasa na podstawie ktorej jest tworzony Friend(gettery i settery).
+The class from which Friend is created (getters and setters).
 */
 
 class Friend
@@ -21,7 +21,6 @@ public:
     Friend();
     virtual ~Friend();
 
-    //Zwraca (get) numer ID nazwe i haslo Uzytkownika
     int getFriendID();
     int getUserID();
     string getFriendName();
@@ -30,7 +29,6 @@ public:
     string getFriendEmail();
     string getFirnedAddress();
 
-    //Ustawia (set) numer ID uzytkownika, nazwê
     void setFriendID(int friendID);
     void setUserID(int userID);
     void setFriendName(string name);
